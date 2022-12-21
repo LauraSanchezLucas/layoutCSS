@@ -1,0 +1,190 @@
+    /*Reset*/
+    html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+        padding: 0;
+        margin: 0;
+        font-size: 100%;
+        font-weight: normal;
+       }
+       table { border-collapse: collapse; border-spacing: 0; }
+       td, th, caption { font-weight: normal; text-align: left; }
+       img, fieldset { border: 0; }
+       ol { padding-left: 1.4em; list-style: decimal; }
+       ul { padding-left: 1.4em; list-style:square; }
+       q:before, q:after { content:''; }
+       a{text-decoration: none;}
+   /*Fin del reset*/
+  
+
+    .contenedor{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        font-family: Arial, sans-serif;
+        font-size: 0.9em;
+    
+    }
+
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5em ;
+       
+    }
+       .nav a{
+            color: black;
+            padding: 0.8em;
+        }
+
+        .nav .hijo {
+            padding-top: 1em;
+    
+        }
+        .nav .puntos{
+            padding-top: 1em;
+        }
+        .nav .puntos:hover{
+            background-color: #EAEAEA;
+            border-radius: 100px;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .nav .hijo:hover{
+            text-decoration: underline;
+        }
+
+        .nav-right #button a{
+            color: white;
+        } 
+
+        .nav-left{
+            display: flex;
+            flex-direction: row; 
+        }
+      
+        .nav-right{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .nav #button:hover{
+            background-color: #2D31FA;
+        }
+      
+
+        #button{
+            background-color: #2564b6;
+            padding: 0.5em 1.2em 0.5em 1.2em;
+            border: none;
+            border-radius: 0.2em;
+              
+        }
+
+    .section{ 
+        background-color: white;
+        background-attachment: fixed;  
+        text-align: center;
+        margin-top: 10%; 
+        margin-bottom: 40%;
+
+    }
+    /*no se como quitar ese degradado en la barra search*/
+   
+        input{
+            padding: 0.7em 12em;
+            border-color: rgba(232, 218, 218, 0.755);
+            border-radius: 5em;
+            margin-bottom: 1em;
+            background-image: url(imagenes/lupa.png);
+            background-size:contain;
+            background-repeat: no-repeat;
+            background-image: url(imagenes/cameramicro.png);
+            background-size:contain;
+            background-repeat: no-repeat;
+            background-position: right;
+            
+        }
+
+        input:hover{
+            box-shadow: rgb(193, 190, 190) 0 0 0.3em 0.02em;
+
+        }
+       
+        .section .bar{
+            margin-top: 1em;
+            margin-bottom: 1em; 
+        }  
+        
+        #lupa{
+            height: 1.8em;
+            width: 1.8em;
+          
+            
+        }
+      
+        .section button{
+            background-color: rgba(210, 208, 208, 0.479);
+            border: none;
+            padding: 0.8em 1em;
+            border-radius: 0.2em; 
+            margin-right:1em ;
+            margin-bottom: 1.8em;
+        }
+
+        button:hover{
+    
+            box-shadow: rgb(193, 190, 190) 0 0 0.02em 0.05em;
+        }
+       
+        .languajes a:hover{
+            text-decoration: underline;
+        }
+        
+
+    .footer{
+        background-color: rgb(207, 203, 205);
+        width: 100%;
+        height: 3em;
+        position:fixed;
+        bottom: 0em;
+        color: rgb(111, 108, 108);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-top: 0.02em solid grey;
+        box-sizing: border-box;
+        
+        
+    }
+
+        .footer div{
+            display: flex;
+            flex-wrap: nowrap;
+
+        }
+        
+        .footer a{
+            color: rgb(119, 116, 116);
+        }
+        .footer a:hover{
+            text-decoration: underline;
+        }
+        .footer #image:hover{
+            text-decoration: underline;
+        }
+      
+   .footer-left a, .footer-right a{
+            padding: 0.5em;
+            
+        }
+
+        
+
+    

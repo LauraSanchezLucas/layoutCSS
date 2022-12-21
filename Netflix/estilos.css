@@ -1,0 +1,114 @@
+/*Reset*/
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; }
+   /*fin reset*/
+
+   body{
+    background-color: black;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 0.9em;
+    height: 100vh;
+    
+    
+   }
+        .netflix{
+            display: flex;
+            flex-direction: column;
+        }
+
+            .barra{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                flex-wrap: nowrap;
+                height: 10vh;
+            }
+
+                .menu-izquierda{
+                    display: flex;
+                    align-items: center;
+                    margin: 1em;
+                }
+
+                    .texto{
+                        padding: 0.5em;
+                    }
+
+                    #efecto:hover{
+                        color: rgb(156, 153, 153);
+                    }
+
+                .menu-derecha{
+                    display: flex;
+                    align-items: center;
+                    margin-right: 2em;
+                }
+                    .texto2{
+                        padding: 0.5em;
+                    }
+
+                    #cambio:hover{
+                        -moz-transform: rotate(180deg);
+                        -ms-transform: rotate(180deg);
+                        -o-transform: rotate(180deg);
+                        -webkit-transform: rotate(180deg); 
+                    }
+
+            .cartelera{
+                display: flex;
+                flex-direction: column;
+            }
+
+            h2{
+                font-size:x-large;
+                margin-bottom: 0.7em;
+        
+            }
+
+            #menu{
+                display: flex;
+                justify-content: center;
+
+
+            }
+
+                .parte1{
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 10em;
+                    margin-top: 5em;
+                    
+                }   
+                    .peliculas-inicio{
+                        display: flex;
+                        flex-direction: row;
+                    }
+                        .peli img{
+                            border-radius: 1em;
+                            padding-right: 0.5em;
+                        }
+                       
+
+                .inferior{
+                    display: flex;
+                    flex-direction: column;
+                    
+                }   
+                    .peliculas-finales{
+                        display: flex;
+                        flex-direction: row;
+                    }
+
+                     
